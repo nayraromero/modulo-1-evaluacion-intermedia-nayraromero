@@ -17,8 +17,11 @@
 .logo {
   width: 155px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
+/*He agregado solamente 7px de margin-bottom porque
+el enlace de por sí me añade 3px, para igualarlo. */
+
 .lista {
   display: flex;
 }
@@ -53,8 +56,10 @@
   .logo {
     margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
   }
+  /*Vuelvo a agregar 3px menos en el margin-bottom para igualar los 3px que me añade de por sí el a href. */
+
   .menu{
     margin-bottom: 0px;
   }

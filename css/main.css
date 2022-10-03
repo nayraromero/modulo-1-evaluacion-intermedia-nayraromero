@@ -1,68 +1,64 @@
-:root{
+:root {
   --texto-menu: #4a4a4a;
-  --color-fondo-main:#3CDBC0;
-  --color-texto-main: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  --color-fondo-main: #3cdbc0;
+  --color-texto-main: #ffffff;
+  font-family: "Rubik", sans-serif;
 }
-.header{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    background-color: white;
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
-.logo{
-    width: 155px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.logo {
+  width: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.lista{
-    display: flex;
+.lista {
+  display: flex;
 }
-.menu{
-    margin-left: 20px;
-    margin-bottom: 13px;
-    font-size: 16px;
-    color: var(--texto-menu);
+.menu {
+  margin-left: 20px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: var(--texto-menu);
 }
-.main{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-fondo-main);
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-fondo-main);
 }
-.h1{
-    color: var(--color-texto-main);
-    font-size: 30px;
-    font-weight: 700;
-    width: 200px;
-    text-align: center;
+.h1 {
+  color: var(--color-texto-main);
+  font-size: 30px;
+  font-weight: 700;
+  width: 200px;
+  text-align: center;
 }
 
-@media screen and (min-width:768px){
-    .header{
-        flex-direction: row;
-        justify-content: space-between;
-        box-sizing: border-box;
-       
-    }
-    .logo{
-        margin-left: 30px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .lista{
-        margin-right: 30px;
-    }
-    .menu{
-        margin-left: 20px;
-    }
-    .h1{
-        font-size: 40px;
-    }
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .logo {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .lista {
+    margin-right: 30px;
+  }
+  .h1 {
+    font-size: 40px;
+  }
 }

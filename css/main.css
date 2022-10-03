@@ -60,7 +60,7 @@ el enlace de por sí me añade 3px, para igualarlo. */
   }
   /*Vuelvo a agregar 3px menos en el margin-bottom para igualar los 3px que me añade de por sí el a href. */
 
-  .menu{
+  .menu {
     margin-bottom: 0px;
   }
   .lista {

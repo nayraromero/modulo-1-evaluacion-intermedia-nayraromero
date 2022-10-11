@@ -26,10 +26,15 @@ el enlace de por sí me añade 3px, para igualarlo. */
   display: flex;
 }
 .menu {
-  margin-left: 20px;
-  margin-bottom: 13px;
+  padding: 10px 10px 13px 10px;
+  
+}
+.menu-link{
   font-size: 16px;
   color: var(--texto-menu);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .main {
   height: 100vh;
@@ -45,6 +50,7 @@ el enlace de por sí me añade 3px, para igualarlo. */
   font-weight: 700;
   width: 200px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 768px) {
@@ -61,7 +67,7 @@ el enlace de por sí me añade 3px, para igualarlo. */
   /*Vuelvo a agregar 3px menos en el margin-bottom para igualar los 3px que me añade de por sí el a href. */
 
   .menu {
-    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .lista {
     margin-right: 30px;
